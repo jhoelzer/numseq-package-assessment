@@ -10,10 +10,10 @@ def primes(n):
     return result
 
 
-def is_prime(num):
-    if num <= 1:
+def is_prime(m):
+    if m <= 1:
         return False
-    for i in range(2, num):
-        if num % i == 0:
+    for i in range(2, m):
+        if m % i == 0:
             return False
     return True
